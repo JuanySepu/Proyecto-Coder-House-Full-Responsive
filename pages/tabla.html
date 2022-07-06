@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balonmano Cinco Saltos</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../img/icono-escudo.ico">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="logo"><img src="../img/escudo.png" alt=""></a>
+        
+            <div class="navegador">
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./partidos.html">Calendario y partidos</a></li>
+                    <li><a href="./tabla.html">Tabla de Posiciones</a></li>
+                    <li><a href="./media.html">Media</a></li>
+                    <li><a href="./contactenos.html">Contacto</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        
+    </header>
+
+    <section id="tabla">
+        <div class="titulo">
+            <h2 class="texto__titulo">Liga del <span>A</span>lto Valle</h2>
+        </div>
+        
+
+        <table class="tablaPosiciones">
+            <tr class="encabezado">
+                <td>Pos</td>
+                <td class="nombreEquipo">Equipo</td>
+                <td class="eliminar2">G</td>
+                <td class="eliminar2">E</td>
+                <td class="eliminar2">P</td>
+                <td class="eliminar1">GF</td>
+                <td class="eliminar1">GC</td>
+                <td class="eliminar1">DG</td>
+                <td>Pts</td>
+            </tr>
+            <tr class="filaTabla">
+                <td>1</td>
+                <td class="nombreEquipo">Nombre Equipo</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td>0</td>
+            </tr>
+            <tr class="filaTabla">
+                <td>2</td>
+                <td class="nombreEquipo">Nombre Equipo</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td>0</td>
+            </tr>
+            <tr class="filaTabla">
+                <td>3</td>
+                <td class="nombreEquipo">Nombre Equipo</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td>0</td>
+            </tr>
+            <tr class="filaTabla">
+                <td>4</td>
+                <td class="nombreEquipo">Nombre Equipo</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td>0</td>
+            </tr>
+            <tr class="filaTabla">
+                <td>5</td>
+                <td class="nombreEquipo">Nombre Equipo</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td>0</td>
+            </tr>
+            <tr class="filaTabla">
+                <td>6</td>
+                <td class="nombreEquipo">Nombre Equipo</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td>0</td>
+            </tr>
+            <tr class="filaTabla">
+                <td>7</td>
+                <td class="nombreEquipo">Nombre Equipo</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td>0</td>
+            </tr>
+            <tr class="filaTabla">
+                <td>8</td>
+                <td class="nombreEquipo">Nombre Equipo</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td>0</td>
+            </tr>
+            <tr class="filaTabla">
+                <td>9</td>
+                <td class="nombreEquipo">Nombre Equipo</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td>0</td>
+            </tr>
+            <tr class="filaTabla">
+                <td>10</td>
+                <td class="nombreEquipo">Nombre Equipo</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td>0</td>
+            </tr>
+            <tr class="filaTabla">
+                <td>11</td>
+                <td class="nombreEquipo">Nombre Equipo</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td>0</td>
+            </tr>
+            <tr class="filaTabla">
+                <td>12</td>
+                <td class="nombreEquipo">Nombre Equipo</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar2">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td class="eliminar1">0</td>
+                <td>0</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <div class="redes">
+            <p>Seguinos en nuestras redes:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/Balonmano5saltos-101682851905168/" target="_blank" class="facebook"><i class='bx bxl-facebook-square'></i></a></li>
+                <li><a href="https://www.instagram.com/balonmano5saltos/" target="_blank" class="instagram"><i class='bx bxl-instagram-alt' ></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCUxIsBo2Sn20YEM8QWTwYrA" target="_blank" class="youtube"><i class='bx bxl-youtube'></i></a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2022 <span>Juan Sepúlveda</span>. All Right Reserved</p>
+        </div>
+    </footer>    
+</body>
+</html>
